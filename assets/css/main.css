@@ -24,6 +24,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
+	/* border: 1px solid red; */
 	font: inherit;
 	vertical-align: baseline;}
 
@@ -75,7 +76,7 @@ input, select, textarea {
 }
 
 /* Resume */
-.myResume a{
+.tap a{
 	display: inline-block;
 	background: rgba(27, 31, 34, 0.85);
 	color: #fff;
@@ -90,9 +91,10 @@ input, select, textarea {
 	transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
 
-.myResume a:hover{
+.tap a:hover{
 	background: rgba(255, 255, 255, 0.075);
 }
+
 
 /* Basic */
 
